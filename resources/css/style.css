@@ -1,0 +1,73 @@
+/* GLOBAL */
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.17rem;
+}
+h4 {
+    font-size: 1rem;
+}
+h5 {
+    font-size: 0.83rem;
+}
+h6 {
+    font-size: 0.67rem;
+}
+
+b{
+    font-weight: bold;
+}
+
+/* HEADER */
+header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+}
+
+header .logo {
+    color: lightgray;
+    display: flex;
+    height: 32px;
+    margin: 1em 1.5em;
+}
+
+.logo p {
+    vertical-align: middle;
+}
+
+header .logo b {
+    color: rgb(63, 63, 63);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+/* MAIN */
+#start_here {
+    width: 100%;
+    background: lightgray;
+    display: flex;
+    vertical-align: middle;
+}
+
+#start_here img {
+    display: inline-block;
+    width: 60%;
+    margin: 2em 1.5em;
+}
