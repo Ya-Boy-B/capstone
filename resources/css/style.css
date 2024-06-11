@@ -3,6 +3,7 @@
 html {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    color: rgb(78, 78, 78);
 }
 
 h1 {
@@ -55,7 +56,7 @@ nav {
 }
 
 .logo b {
-    color: black;
+    color: rgb(78, 78, 78);
 }
 
 nav ul {
@@ -82,7 +83,7 @@ nav a:visited {
 #hero {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    background-color: lightgray;
+    background-color: rgb(218, 218, 218);
 }
 
 #hero figure {
@@ -208,7 +209,7 @@ nav a:visited {
 
 /* START LEARNING SECTION */
 #learning {
-    background-color: lightgray;
+    background-color: rgb(218, 218, 218);
     padding: 0 3rem 2rem 3rem;
 }
 
