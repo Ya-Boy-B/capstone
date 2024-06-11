@@ -332,3 +332,140 @@ footer li {
 footer a {
     color: black;
 }
+
+/* MOBILE ELEMENTS OFF */
+@media only screen and (min-width: 581px) {
+    .mobile {
+        display: none;
+    }
+}
+ 
+
+/* MOBILE RESPONSIVENESS */
+@media only screen and (max-width: 580px) {
+    
+    .desktop {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+        align-items: center;
+        padding: 0 1.5rem;
+    }
+
+    nav ul {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero figure {
+        padding: 0 0 1.5rem 0;
+    }
+
+    #start {
+        width: 90%;
+        align-self: center;
+        padding-bottom: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    #event {
+        display: flex;
+        align-content: center;
+    }
+
+    #events {
+        justify-content: center;        
+    }
+
+    .event {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1.5rem;
+        /* border: 1px solid yellow;     */
+    }
+
+    .event img {
+        aspect-ratio: auto;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #details {
+        padding: 1rem;
+        width: 90%;        
+    }
+
+    #details h3 {
+        font-size: 2rem;    
+    }
+
+    #details p {
+        font-size: 1.2rem;   
+    }
+
+    #learning {
+        background-color: white;
+        padding: 0 1rem 2rem 1rem;
+        border-top: 1px solid lightgray;
+    }
+
+    #learning h2 {
+        font-size: 2.3rem;
+    }
+
+    #courses {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course {
+        border: none;
+        border-radius: 0;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        overflow: hidden;
+        padding-bottom: 1rem;
+    }
+
+    .course h3 {
+        font-size: 1.5rem;
+    }
+
+    .course img {
+        display: none;
+    }
+
+    .course p {
+        display: none;
+    }
+
+    #thesis {
+        border-top: 1px solid lightgray;
+    }
+
+    #thesis h2 {
+        font-size: 2.3rem;
+    }
+
+    #thesis_grid {
+        display: flex;
+    }
+
+    #feature_thesis {
+        padding: 0 0 1rem 0;
+    }
+}
